@@ -19,6 +19,7 @@
 		C51FB6261A8B5506000F4F52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51FB60E1A8B5506000F4F52 /* UIKit.framework */; };
 		C51FB62E1A8B5506000F4F52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C51FB62C1A8B5506000F4F52 /* InfoPlist.strings */; };
 		C51FB6301A8B5506000F4F52 /* UIActionSheet___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51FB62F1A8B5506000F4F52 /* UIActionSheet___Tests.m */; };
+		C5E1A19C1A8B553A00B05036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E1A19B1A8B553A00B05036 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C51FB62B1A8B5506000F4F52 /* UIActionSheet动作表Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIActionSheet动作表Tests-Info.plist"; sourceTree = "<group>"; };
 		C51FB62D1A8B5506000F4F52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C51FB62F1A8B5506000F4F52 /* UIActionSheet___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet___Tests.m"; sourceTree = "<group>"; };
+		C5E1A19A1A8B553A00B05036 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5E1A19B1A8B553A00B05036 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		C51FB5FE1A8B5506000F4F52 = {
 			isa = PBXGroup;
 			children = (
+				C5E1A19A1A8B553A00B05036 /* ViewController.h */,
+				C5E1A19B1A8B553A00B05036 /* ViewController.m */,
 				C51FB6101A8B5506000F4F52 /* UIActionSheet动作表 */,
 				C51FB6291A8B5506000F4F52 /* UIActionSheet动作表Tests */,
 				C51FB6091A8B5506000F4F52 /* Frameworks */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E1A19C1A8B553A00B05036 /* ViewController.m in Sources */,
 				C51FB61B1A8B5506000F4F52 /* AppDelegate.m in Sources */,
 				C51FB6171A8B5506000F4F52 /* main.m in Sources */,
 			);
@@ -437,6 +443,7 @@
 				C51FB6351A8B5506000F4F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C51FB6361A8B5506000F4F52 /* Build configuration list for PBXNativeTarget "UIActionSheet动作表Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				C51FB6381A8B5506000F4F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
